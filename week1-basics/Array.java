@@ -81,40 +81,38 @@ public class Array {
         daoMang(arr, 0, (n - 1) - k);
 
     }
-    public static void main(string[] args) {
-        // Khai báo mảng
-        int arr[] = new int[]{1, 2, 3, 4, 5};
 
-        // truy cập tại vị trí mảng 0 -> arr - 1
-        System.out.println("Giá trị tại vị trị thứ 2 : " + arr[2]);
-
-        // thay đổi giá trị mảng
-        arr[1] = 100;
-
-        // duyệt mảng
-        for(int i = 0; i < arr.length; i++){
-            System.out.println(arr[i]);
+    public static double averagePositive(int nums[]){
+          int sum = 0;
+          int count = 0;
+          for(int i = 0 ; i < nums.length; i++){
+              if(nums[i] > 0){
+                  sum += nums[i];
+                  count++;
+              }
+          }
+          if(count == 0){
+              return 0;
+          }
+          return (double) sum /count;
+    }
+    public static int secondLargest(int []nums){
+        int first = Integer.MIN_VALUE;
+        int second = Integer.MIN_VALUE;
+        for(int x : nums){
+            if(x > first){
+                second = first;
+                first = x;
+            }else if(x > second && x < first){
+                second = x;
+            }
         }
-
-        // Gọi method tìm min
-        int resultMin = minArray(arr);
-        System.out.println("Giá trị Min trong mảng: " + resultMin);
-
-        // Gọi method tìm max
-        int resultMax = maxArray(arr);
-        System.out.println("Giá trị Max trong mảng: " +resultMax);
-
-        // Gọi method đảo mảng
-        daoMang(arr);
-        System.out.println(Arrays.toString(arr));
-
-        rotateRight(arr, 2);
-        System.out.println(Arrays.toString(arr));
-
-        int []arr1 = new int[]{1,2,3,4,5};
-        rotateLeft(arr1, 2);
-        System.out.println(Arrays.toString(arr1));
-
-
+        return second;
+    }
+    public static void main(String[] args) {
+        System.out.println(averagePositive(new int[] {3, -1, 4 ,2 ,1}));
+        System.out.println(averagePositive(new int[] {-5 ,  -2}));
+        System.out.println(secondLargest(new int[]{5 ,5 ,3}));
+        System.out.println(secondLargest(new int[]{1,9,4,9}));
     }
 }

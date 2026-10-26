@@ -13,4 +13,10 @@
 - Hôm nay làm : Hiểu và làm được các bài tập nhỏ ở mỗi phân đoạn 
 - Kẹt ở đâu và cách gỡ : Kẹt ở các phương thức bổ trợ có trong String và Array; đã khắc phục bằng cách tra cứu học các phương thức mới
 - Một điều mới : data-bye giống tem dán cho mỗi hàng phù hợp với nó
-- Ngày mai : Bắt đầu tìm hiểu về OOP 
+- Ngày mai : degbug vd
+
+## 2026-10-23 (Tuần 1, ngày 2)
+
+- Hôm này làm : fix bug code với những bài tập nhỏ
+- Kẹt ở đâu và cách gỡ : Kẹt ở chưa hiểu quá trình chạy của code; đã khắc phục bằng cách viết ra giấy input và output để test ví dụ
+- Ngày mai : Bắt đầu học OOP
