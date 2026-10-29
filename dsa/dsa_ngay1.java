@@ -125,6 +125,6 @@ public class dsa_ngay1 {
 
 
     public static void main(String[] args) {
-        System.out.println(gcd(12, 18));
+
     }
 }
