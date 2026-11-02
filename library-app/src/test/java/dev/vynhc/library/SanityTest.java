@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class SanityTest {
     @Test
-    void oneplusOne() {
+    void onePlusOne() {
         assertEquals(2, 1 + 1);
     }
 }

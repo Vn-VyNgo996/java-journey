@@ -1,4 +1,4 @@
-package model;
+package dev.vynhc.library.model;
 
 public class VIPMember extends Member {
     public VIPMember(String id, String name, String SĐT){

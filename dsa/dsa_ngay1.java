@@ -125,6 +125,14 @@ public class dsa_ngay1 {
 
 
     public static void main(String[] args) {
-        System.out.println(gcd(12, 18));
+        String s = "A man, a plan, a canal: Panama";
+         String res = "";
+         for (int i = 0; i < s.length(); i++){
+             char tmp = s.charAt(i);
+             if(tmp >= 65 || tmp <= 90 || tmp >= 97 || tmp <= 122){
+                 res += tmp;
+             }
+         }
+        System.out.println(res);
     }
 }

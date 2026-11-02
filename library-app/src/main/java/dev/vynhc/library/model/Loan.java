@@ -1,4 +1,4 @@
-package model;
+package dev.vynhc.library.model;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoField;

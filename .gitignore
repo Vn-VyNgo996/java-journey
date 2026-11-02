@@ -24,8 +24,8 @@ hs_err_pid*
 replay_pid*
 
 .idea/
-target/
-out/
-*.class
 *.iml
+out/
+target/
+*.class
 

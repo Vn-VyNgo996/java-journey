@@ -23,12 +23,12 @@
 
 ## 2026-10-28 (Tuần 1, ngày 7)
 
--- Hôm nay làm : Học Được OOP, Thiết ké CRC và viết các class Member, Book , Loan, interface Interfire, serviec
--- Kẹt ở đâu và cách gỡ : Kẹt ở những các class có các nghiệp vụ như vào ; khắc phục bằng cách tự đặt câu hỏi và đưa ví dụ minh họa
--- Ngày mai : Tiếp tục thiết kế library-app
+- Hôm nay làm : Học Được OOP, Thiết ké CRC và viết các class Member, Book , Loan, interface Interfire, serviec
+- Kẹt ở đâu và cách gỡ : Kẹt ở những các class có các nghiệp vụ như vào ; khắc phục bằng cách tự đặt câu hỏi và đưa ví dụ minh họa
+- Ngày mai : Tiếp tục thiết kế library-app
 
 ## 2026-10-31 (Tuần 2, Ngày 1)
 
--- Hôm nay làm : Test lại các nghiệp vụ các case và fix lỗi 
--- Kẹt ở đâu và cách gỡ : Kẹt ở những các case chưa tìm được cách khắc phục : khắc phục học tập nhiều cái mới để tìm ra hướng đi phù hợp nhất 
--- Ngày mai : Luyện tập DSA và Học cái mới
+- Hôm nay làm : Test lại các nghiệp vụ các case và fix lỗi 
+- Kẹt ở đâu và cách gỡ : Kẹt ở những các case chưa tìm được cách khắc phục : khắc phục học tập nhiều cái mới để tìm ra hướng đi phù hợp nhất 
+- Ngày mai : Luyện tập DSA và Học cái mới

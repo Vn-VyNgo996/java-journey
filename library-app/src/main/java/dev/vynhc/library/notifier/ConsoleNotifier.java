@@ -1,4 +1,4 @@
-package notifier;
+package dev.vynhc.library.notifier;
 
 public class ConsoleNotifier implements Notifier{
     public void send(String to, String message){

@@ -1,4 +1,4 @@
-package model;
+package dev.vynhc.library.model;
 
 public abstract class Member {
     private final String id;

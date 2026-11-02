@@ -1,9 +1,9 @@
 package service;
 
-import model.Book;
-import model.Loan;
-import model.Member;
-import notifier.Notifier;
+import dev.vynhc.library.model.Book;
+import dev.vynhc.library.model.Loan;
+import dev.vynhc.library.model.Member;
+import dev.vynhc.library.notifier.Notifier;
 
 
 import java.time.LocalDate;

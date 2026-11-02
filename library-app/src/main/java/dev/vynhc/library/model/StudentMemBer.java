@@ -1,4 +1,4 @@
-package model;
+package dev.vynhc.library.model;
 
 public class StudentMemBer extends Member {
     public StudentMemBer(String id, String name, String SĐT){

@@ -1,4 +1,4 @@
-package model;
+package dev.vynhc.library.model;
 
 public enum genre {
     NOVEL("TIỂU THUYẾT"),
